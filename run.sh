@@ -1,8 +1,9 @@
 #!/bin/bash
 
-version=$1
+# compile hadoop 2.3.0 by default
+version=${1:-2.3.0}
 
-rm -rf binary &> /dev/nullls
+rm binary/hadoop-$version.tar.gz &> /dev/nullls
 
 echo -e "\n\n\nbuild kiwenlau/compile-hadoop image...\n\n\n"
 sudo docker build -t kiwenlau/compile-hadoop .
