@@ -16,6 +16,6 @@ The **run.sh** script will:
 
 1. Build **kiwenlau/compile-hadoop** image
 
-2. Start a container based on  **kiwenlau/compile-hadoop** image, **compile.sh** will execute within the container to compile Hadoop.
+2. Start a container, **compile.sh** will execute within the container to compile Hadoop.
 
 3. You will get compiled Hadoop in **compile-hadoop/binary** directory
