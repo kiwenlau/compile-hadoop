@@ -1,11 +1,21 @@
-##Compile Hadoop in Docker container based Ubuntu:14.04 image
+##Compile Hadoop in Docker container based on Ubuntu:14.04 image
 
-To comile hadoop 2.3.0, just run
+To comile [Hadoop](http://archive.apache.org/dist/hadoop/core/), just run with your prefered VERSION
 
 ```
-sudo ./run.sh
+sudo ./run.sh [VERSION]
 ```
 
-1. A docker image called **kiwenlau/compile-hadoop** will be built.
+For example, to compile Hadoop 2.3.0:
 
-2. A container based on  **kiwenlau/compile-hadoop** will start. **compile.sh** will execute within the container.
+```
+sudo ./run.sh 2.3.0
+```
+
+The **run.sh** script will:
+
+1. Build **kiwenlau/compile-hadoop** image
+
+2. Start a container based on  **kiwenlau/compile-hadoop** image, **compile.sh** will execute within the container to compile Hadoop.
+
+3. You will get compiled Hadoop in **compile-hadoop/binary** directory
