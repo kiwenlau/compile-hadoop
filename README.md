@@ -1,4 +1,4 @@
-##Compile Hadoop in Docker container based on Ubuntu:14.04 image
+##Compile Hadoop in Docker container
 
 To comile [Hadoop](http://archive.apache.org/dist/hadoop/core/), just run with your prefered VERSION
 
