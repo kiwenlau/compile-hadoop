@@ -2,8 +2,6 @@ FROM ubuntu:14.04
 
 MAINTAINER kiwenlau <kiwenlau@gmail.com>
 
-WORKDIR /root
-
 # install dependencies for compiling hadoop
 RUN apt-get update && \
     apt-get install -y wget \
