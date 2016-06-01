@@ -3,13 +3,6 @@
 # compile hadoop 2.7.2 by default
 version=${1:-2.7.2}
 
-#echo -e "\n\ndownload hadoop source code..."
-
-#wget http://archive.apache.org/dist/hadoop/core/hadoop-$version/hadoop-$version-src.tar.gz
-
-#echo -e "\n\nextract hadoop source directory..."
-#tar -xzvf hadoop-$version-src.tar.gz
-
 cd /hadoop-$version-src
 
 echo -e "\n\ncomile hadoop $version..."

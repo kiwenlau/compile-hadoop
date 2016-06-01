@@ -3,4 +3,4 @@ Dockerfile
 .DS_Store  
 .git  
 run.sh
-binary
+hadoop*
